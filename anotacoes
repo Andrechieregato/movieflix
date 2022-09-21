@@ -1,0 +1,2 @@
+1. Overflow:hidden Rispetta la dimenzione dello schermo. L'ho usato per non far scorerre la pagina horizontalmente.
+2. Position:sticky Usato per fissare il footer in tutta la pagina.

@@ -1,0 +1,252 @@
+@media only screen and (min-width:1024px){
+.menu_link__schermo--bambini{
+    display:none;
+}
+.container__playlist--schermo img,  .container__playlist--schermo h2,  .p__schermo{
+        display:block;
+    }
+
+.container__playlist--play{
+        display:block;
+    }
+
+    .top__10--mobile{
+        display:block;
+    }
+
+.schermo__container{
+        display:flex;
+        gap:10px;
+        align-items:center;
+    }
+
+.background{
+    height:max-content;
+}
+.header__categoria{
+    display:none;
+}
+
+.select__netflix{
+
+    display:none;
+}
+
+.tablet__header--container{
+    display:flex;
+    align-items: center;
+    gap:32px;
+}
+
+.menu__pagina-principale_image{
+    width:36px;
+    height:48px;
+}
+
+.menu__link--schermo{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap:8px;
+    align-items:center;
+}
+
+.menu__link--schermo a{
+    font-size:16px;
+    opacity:80%;
+}
+
+.menu__campanello{
+    display:block;
+}
+
+.menu_link__schermo--bambini{
+    font-size:16px;
+}
+
+.menu__ricerca, .menu__campanello{
+    font-size:12px;
+    margin:0;
+    background:none;
+
+}
+
+.menu__account{
+    background:none;
+}
+
+.menu__account-image{
+    width:22px;
+    height:22px;
+}
+
+.header__categoria{
+
+    display:none;
+}
+
+.list__subcategoria{
+
+    display:none;
+}
+
+.container__playlist--info{
+
+    display:none;
+}
+
+.container__playlist--info_icon_tablet{
+
+    display: flex;
+    justify-content: space-between;
+    gap:8px;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 8px 22px;
+    background-color:#4e4e4e;
+    opacity:80%;
+    color:white;
+}
+
+.container__playlist--info_icon_tablet i::before{
+    content: url('https://api.iconify.design/ant-design/info-circle-outlined.svg?color=white&width=24');
+}
+
+.container__playlist--info_tablet{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.container__playlist--mylist{
+    display:none;
+}
+
+.container__playlist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    margin:0;
+    padding-top:60px;
+    padding-left:40px;
+    gap:8px;
+ 
+}
+
+.container__playlist--play {
+    display:flex;
+    align-items:center;
+    padding:8px;
+    font-size: 14px;
+    font-weight: 500;
+    margin:0;
+}
+
+
+.container__playlist--play i::before{
+    content: url('https://api.iconify.design/bx/play.svg?width=20');
+}
+
+.container__playlist--schermo{
+ 
+    display:flex;
+    flex-direction:column;
+    height:200px;
+    width:250px;
+    overflow-wrap:break-word;
+    gap:10px;
+   
+}
+.container__playlist--schermo img{
+    width:320px;
+    height:280px;
+}
+
+.container__playlist--schermo p{
+   font-size:14px;
+   line-height:1.4;
+   color:white;
+   opacity:80%;
+   font-weight:200;
+}
+
+.container__playlist--schermo__buttons{
+    display:flex;
+    gap:8px;
+}
+
+.playlist__schermo--title{
+    padding-top:40px;
+    font-size:18px;
+    color:white;
+    opacity:80%;
+}
+
+.main__content{
+
+    margin-top:240px;
+    margin-left:40px;
+}
+
+/*Piu Popolari*/
+
+.piu__popolari--titolo{
+
+    font-size:16px;
+}
+
+.piu__popolari--gallery{
+    gap:2;
+    justify-content:flex-start;
+    
+}
+
+.piu__popolari--film{
+
+    width:200px;
+    height:140px;
+}
+
+.button__control--inf, .button__control--option, .piu__popolari_film--control, .piu__popolari--film i, .piu__popolari--film::after{
+    display:none;
+}
+
+
+/*Top 10 */
+
+.top__10--main{
+
+    justify-content:flex-start;
+    gap:8px;
+}
+
+.top__10--titolo{
+    font-size:16px;
+}
+
+.top__10--button {
+
+    width: 200px;
+    height: 140px;
+  
+}
+
+.numero__image{
+    width:40px;
+    height:40px;
+}
+
+/* FOOTER */ 
+
+.netflix__footer{
+    display:none;
+}
+
+}
+

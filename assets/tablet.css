@@ -1,0 +1,202 @@
+@media only screen and (min-width:720px) and (max-width:960px){
+
+    .main__content{
+        margin:32px 0px;
+    }
+
+    .top__10--mobile{
+        display:block;
+    }
+
+    .header{
+        margin: 8px auto;
+        width: 90%;
+    }
+
+    .categoria{
+        margin-top:300px;
+    }
+
+    .header__categoria{
+
+        display:none;
+    }
+
+    .list__subcategoria{
+
+        display:none;
+    }
+
+    .container__playlist{
+        margin: 8px auto;
+        width: 90%;
+        justify-content:flex-start;
+        gap:8px;
+    
+    }
+
+    .menu__link--schermo{
+        display:none;
+    }
+
+
+    .container__playlist--schermo{
+        display:none;
+    }
+    .container__playlist--play{
+
+        padding:4px 22px;
+        margin:0;
+    }
+
+    .container_playlist_info{
+
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;
+        gap:8px;
+    }
+    .container__playlist--info{
+
+        display:none;
+    }
+
+    .container__playlist--info_icon_tablet{
+
+        display: flex;
+        justify-content: space-between;
+        gap:8px;
+        align-items: center;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+        padding: 8px 22px;
+        background-color:#4e4e4e;
+        opacity:80%;
+        color:white;
+    }
+
+    .container__playlist--info_icon_tablet i::before{
+        content: url('https://api.iconify.design/ant-design/info-circle-outlined.svg?color=white&width=24');
+    }
+
+    .container__playlist--info_tablet{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+    }
+
+
+    .container__playlist--mylist{
+
+        display:none;
+    }
+
+    .tablet__header--container{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        gap:32px;
+    }
+    .menu__pagina-principale_link{
+        display:none;
+    }
+
+    .tablet__header--link{
+        display:block;
+    }
+
+    .tablet__header--logo{
+        width:140px;
+        height:60px;
+    }
+
+    .select__netflix{
+        display:block;
+        background-color:transparent;
+        border:none;
+        font-size:26px;
+        font-weight:600;
+        color:#FFFFFF;
+        padding:8px;
+    }
+
+    .header__menu{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        gap:32px;
+
+    }
+
+    .header__menu--icons{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        gap:16px;
+    }
+
+    .menu__campanello{
+        display:block;
+        background-color:transparent;
+        color:#FFFFFF;
+    }
+
+
+    /*Cosa andre sta guardando */
+
+    .piu__popolari--titolo, .top__10--titolo{
+
+        font-size:32px;
+    }
+
+    .piu__popolari--film {
+
+        width:200px;
+}
+
+.piu__popolari, .top__10{
+   margin-left:4%;
+}
+.piu__popolari--film i{
+
+    display:none;
+}
+
+.piu__popolari--film::after{
+
+    display:none;
+}
+
+.piu__popolari_film--control{
+    display:none;
+}
+
+.top__10--main{
+
+    justify-content:flex-start;
+}
+
+
+
+/* Piu Popolare */
+
+.piu__popolari--img{
+
+    width:200px;
+}
+
+
+/*Footer */
+
+.netflix__footer--categoria p{
+
+    font-size:26px;
+}
+}
+

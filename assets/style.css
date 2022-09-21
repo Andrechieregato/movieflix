@@ -1,0 +1,537 @@
+body, button, ul, li, p, h1, h2, h3, h4{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    border:0;
+    
+}
+body{
+    background-color: #1a1a00;
+}
+
+a{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+
+    .background{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("https://pbs.twimg.com/media/Fb4ctOlWQAYkVDL.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        width:100%;
+        max-width:100%;
+        height:620px;
+    }
+
+    /* HEADER */
+
+    .header{
+        display:grid;
+        grid-template-rows: auto auto;
+        gap:16px;
+        padding:8px 16px;
+    }
+
+    .tablet__header--link{
+        display:none;
+    }
+
+    .select__netflix{
+        display:none;
+    }
+
+    .header__menu{
+
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .header__menu--icons{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .menu__pagina-principale_image{
+        width:25px;
+        height:40px;
+    }
+
+    .menu__link--schermo{
+        display:none;
+    }
+
+    .menu__ricerca{
+
+        border:none;
+        width:40px;
+        height:40px;
+        margin-right:8px;
+        background:none;
+    }
+
+    .menu__campanello{
+        display:none;
+    }
+
+    .menu__account{
+        border:none;
+        width:35px;
+        height:35px;
+    }
+
+    .menu__account-image{
+        width:35px;
+        height:35px;
+       
+    }
+
+    .header__categoria{
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+    }
+    .header__categoria--list{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .header__categoria a i::before{
+
+        content: url('https://api.iconify.design/bx/down-arrow.svg?color=white&width=12');
+        padding-left:10px;
+        
+        
+    
+    }
+
+    /* SUBCATEGORIA */
+
+    .list__subcategoria{
+        display:flex;
+        justify-content:space-between;
+        padding:8px 16px;
+        margin-top:300px;
+        
+    }
+    
+    .list__subcategoria--item{
+        list-style-type:none;
+    }
+
+    .list__subcategoria--link{
+       font-size:14px; 
+    }
+
+    .list__subcategoria--link i::before{
+        content: url('https://api.iconify.design/akar-icons/circle-fill.svg?width=4');
+        align-items:center;
+        padding-left: 15px;
+        opacity:0.4;
+
+    }
+
+
+
+    /* PlayList */
+    .menu_link__schermo--bambini{
+        display:none;
+    }
+    .top__10--mobile{
+        display:none;
+    }
+
+
+    .container__playlist--schermo img,  .container__playlist--schermo h2,  .p__schermo{
+        display:none;
+    }
+
+    .container__playlist--play{
+        display:none;
+    }
+
+
+    .container__playlist{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        margin: 32px auto;
+        width:80%;
+        align-items:center;
+
+    
+    }
+
+    .container__playlist--mylist{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-between;
+    }
+
+    .container__playlist--add{
+        background:none;
+        border:none;
+        color:#FFFFFF;
+    }
+
+    .mylist__paragraph{
+        color:#737373;;
+        font-size:12px;
+        margin:0;
+    }
+
+    .container__playlist--add i::before{
+        content: url('https://api.iconify.design/carbon/add.svg?color=white&width=30');
+
+    }
+
+    .container__playlist--play{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        border-radius:5px;
+        font-size:16px;
+        font-weight:500;
+        margin: 10px 20px;
+        padding:0px 15px;
+    }
+    
+    .container__playlist--info{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-between;
+    }
+
+
+    .container__playlist--info p{
+
+        color:#737373;
+        font-size:12px;
+        margin:0;
+    }
+
+    .container__playlist--play i::before{
+        content: url('https://api.iconify.design/bx/play.svg?width=30');
+
+    }
+
+    .container__playlist--info{
+        background:none;
+        border:none;
+    }
+    .container__playlist--info_icon i::before{
+        content: url('https://api.iconify.design/ant-design/info-circle-outlined.svg?color=white&width=24');
+    }
+
+    .container__playlist--info_icon{
+        background:none;
+    }
+
+    .container__playlist--info_icon_tablet{
+        display:none;
+    }
+
+        /* COSA ANDRE STA GUARDANDO */
+
+        .piu__popolari--film{
+            width:100px;
+            height:140px;
+           
+            position:relative;
+        }
+
+        .piu__popolari--film::after{
+            content: '';
+            height: 3px;
+            position: absolute;
+            left: 0;
+            right:0;
+            bottom: 0;
+            background: linear-gradient(to right, red 0%,red 33%,red 33%,red 66%,gray 66%,gray 100%);
+        }
+
+        .film__1{
+            background: url("https://occ-0-1380-590.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcXnR9laFn83s6k94ZjA9PVOPa4wpp9PkXIFXXGHxFfDx4rgjVRy2qJBa9X7vBMwqJmcyeXIYzK12BCxMAY_HzsRm8IUWMm8Fz9HCFgVDoCWvxY61nYXj7IV0Lg8SJGVUtoF.jpg?r=3a6");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+
+        .film__2{
+            background: url("https://occ-0-56-2219.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABf5it9ueUezYQNOOlQ4rK6yFQoZc0vneKukEmCUUwv61gzDERkJiZYj8sj_oIvhOv09hq1NlQ2eRsHl465xNlJIjgRqGefz5hJXfpmEmhvfUr2VHwNDYYw0c-FI2K0zoEoSh.jpg?r=d2a");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+
+        .film__3{
+            background: url("https://media-assets.vanityfair.it/photos/614d9fadd926824a283acbe7/master/w_1280,h_720,c_limit/photo7.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+
+        .film__4{
+            background: url("https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQUguAceyB6QSXUNUvH_EP2G44Hdr5KXGU3s8Js-9uDUw2oBDtG845TQCN85UtjAPbwPar0bBAZV3DqQ0z_HmpA9d6RNPsfzxnuMWvmmWqCx6-7QZhd-56DGpxvrr3BvZOwLEZ9u3_kdJvRnotw8Ir85n.jpg?r=c9f");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+
+        .piu__popolari--film i{
+            content: url('https://api.iconify.design/bi/play-circle.svg?color=white&width=32&height=32');
+            background-color:rgb(0, 0, 0, 0.6);
+            border-radius:100%;
+            
+        }
+
+        .button__control--inf, .button__control--option{
+            background-color:#404040;
+            padding:5px 0px 5px 7px;
+            
+        }
+
+        .button__control--inf i::before{
+            content: url('https://api.iconify.design/ant-design/info-circle-outlined.svg?color=white&width=28');
+            
+        }
+
+        .button__control--option i::before{
+            content: url('https://api.iconify.design/carbon/overflow-menu-vertical.svg?color=white&width=32&height=28');
+
+
+        }
+
+        .piu__popolari_film--control{
+            background-color:#404040;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+        }
+
+        /******************* TOP 10 ********************/
+
+        .top__10{
+            display:flex;
+            flex-direction:column;
+            gap:8px;
+        }
+
+        .top__10--main{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:space-between;
+            margin-left:0px;
+            overflow:hidden;
+        }
+
+        .top__10--titolo{
+            color:#ffffff;
+            font-size:20px;
+        }
+
+        .top__10--container{
+            position:relative;
+            display:flex;
+            min-width:140px;
+            justify-content:flex-end;
+           
+        }
+
+        .top__10--container .film__1{
+            background: url("https://occ-0-1380-590.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcXnR9laFn83s6k94ZjA9PVOPa4wpp9PkXIFXXGHxFfDx4rgjVRy2qJBa9X7vBMwqJmcyeXIYzK12BCxMAY_HzsRm8IUWMm8Fz9HCFgVDoCWvxY61nYXj7IV0Lg8SJGVUtoF.jpg?r=3a6");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+
+        .top__10--container .film__2{
+            background: url("https://www.warnerbros.it/wp-content/uploads/2016/11/Gomorra_SerieTV_Stagione3.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+
+        .top__10--container .film__3{
+            background: url("https://mr.comingsoon.it/imgdb/serietv/serie/1859/1859.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+        .top__10--container .film__4{
+            background: url("http://www.edizionieo.it/spool/cover_9788866320326__id2640_w600_t1531471071__1x.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+        .top__10--container .film__5{
+            background: url("https://www.luxvide.it/wp-content/uploads/2018/10/cover_800x1140.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+
+        .top__10--container .film__6{
+            background: url("https://images-na.ssl-images-amazon.com/images/I/91fxk0f9rmL.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+     
+        .numero__image{
+            position:absolute;
+            left:0px;
+            bottom:0px;
+            width:90px;
+            height:90px;
+        }
+
+        
+
+        .button__image{
+            background-size:cover;
+            box-sizing:border-box;
+           width:100%;
+           height:100%;
+        }
+
+        .top__10--button{
+            box-sizing:border-box;
+            width:110px;
+            height:160px;
+        }
+
+    /******************* PIU POPOLARI **************************/
+
+    .main__content{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        margin:32px 8px;
+        gap:32px;
+    }
+    .piu__popolari{
+        display:flex;
+        flex-direction:column;
+        gap:8px;
+        overflow:hidden;
+
+    }
+
+    .piu__popolari--titolo{
+        color:#FFFFFF;
+        font-size:20px;
+        margin:0;
+    }
+
+    .piu__popolari--gallery{
+
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+        gap:8px;
+    }
+
+    .piu__popolari--gallery .film__1{
+        background: url("https://m.media-amazon.com/images/I/91rxegc5WxL._SL1500_.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+    .piu__popolari--gallery .film__2{
+        background: url("https://www.ilnapolista.it/wp-content/uploads/2021/03/better-call-saul.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+
+    .piu__popolari--gallery .film__3{
+        background: url("https://www.bergamonews.it/photogallery_new/images/2014/01/breaking-bad-tutti-gli-elementi-del-capolavoro-465250.large.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+    .piu__popolari--gallery .film__4{
+        background: url("https://m.media-amazon.com/images/I/41frU8E8ZrL.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+    .piu__popolari--gallery .film__5{
+        background: url("https://www.smemoranda.it/wp-content/uploads/2020/04/the-simpsons.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+    .piu__popolari--gallery .film__6{
+        background: url("https://occ-0-1380-590.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcXnR9laFn83s6k94ZjA9PVOPa4wpp9PkXIFXXGHxFfDx4rgjVRy2qJBa9X7vBMwqJmcyeXIYzK12BCxMAY_HzsRm8IUWMm8Fz9HCFgVDoCWvxY61nYXj7IV0Lg8SJGVUtoF.jpg?r=3a6");
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+
+
+
+    /******************* FOOTER **************************/
+
+    .netflix__footer{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-between;
+        margin-top:8px;
+        margin-bottom:32px;
+        position:sticky;
+        bottom:0;
+        left:0;
+        background-color:#1a1a00;
+    }
+
+    .footer__container{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+        gap:32px;
+        
+    }
+
+    .netflix__footer--categoria{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+    .netflix__footer--categoria p {
+        color: #737373;
+        font-size:12px;
+    }
+
+    .footer_button{
+        background-color:#1a1a00;
+    }
+
+    .footer__button--home i::before{
+        content: url('https://api.iconify.design/ant-design/home-filled.svg?color=%23737373&width=21');
+        
+
+
+    }
+
+    .footer__button--giochi i::before{
+        content: url('https://api.iconify.design/entypo/game-controller.svg?color=%23737373&width=21');
+
+
+    }
+
+    .footer__button--novita i::before{
+        content: url('https://api.iconify.design/akar-icons/play.svg?color=%23737373&width=21');
+
+
+    }
+
+    .footer__button--download i::before{
+        content: url('https://api.iconify.design/el/download.svg?color=%23737373&width=21');
+
+    }
+
+
+    
+    
+
+
+

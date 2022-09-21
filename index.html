@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto_Netflix</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/tablet.css">
+    <link rel="stylesheet" href="assets/schermo.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="background">
+        <header class="header">
+            <div class="header__menu">
+                <div class="tablet__header--container">
+                <a href="https://www.netflix.com/it-en/" class="menu__pagina-principale_link"><img class="menu__pagina-principale_image" src="assets/img/Netflix-N-Logo-PNG-Image.png"/></a>
+        
+
+                <a class="tablet__header--link" href="https://www.netflix.com/it-en/"><img class="tablet__header--logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1280px-Netflix_2015_logo.svg.png" alt=""></a>
+                
+                <div class="menu__link--schermo">
+                    <a href="">Menu</a>
+                    <a href="">Serie TV</a>
+                    <a href="">Film</a>
+                    <a href="">Nuovi e popolari</a>
+                    <a href="">La mia lista</a>
+                    <a href="">Sfoglia per lingua</a>
+                </div>
+                <select name="netflix" class="select__netflix" form="netflixform">
+                    <option value="sfoglia">Sfoglia</option>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                  </select>
+                </div>
+               
+                
+
+
+                <div class="header__menu--icons">
+                    <p class="menu_link__schermo--bambini">Bambini</p>
+                    <button class="menu__ricerca"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="black" stroke-linecap="round" stroke-width="2" d="m21 21l-4.486-4.494M19 10.5a8.5 8.5 0 1 1-17 0a8.5 8.5 0 0 1 17 0Z"/></svg>
+                    </button>
+
+                    <button class="menu__campanello"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2.2em" height="2.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M19 13.586V10c0-3.217-2.185-5.927-5.145-6.742C13.562 2.52 12.846 2 12 2s-1.562.52-1.855 1.258C7.185 4.074 5 6.783 5 10v3.586l-1.707 1.707A.996.996 0 0 0 3 16v2a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-2a.996.996 0 0 0-.293-.707L19 13.586zM19 17H5v-.586l1.707-1.707A.996.996 0 0 0 7 14v-4c0-2.757 2.243-5 5-5s5 2.243 5 5v4c0 .266.105.52.293.707L19 16.414V17zm-7 5a2.98 2.98 0 0 0 2.818-2H9.182A2.98 2.98 0 0 0 12 22z"/></svg>
+                    </button>
+                    <button class="menu__account"><img class="menu__account-image" src="assets/img/Netflix-avatar.png"></button>
+                </div>
+            </div>
+
+            <div class="header__categoria">
+                <a href="">SerieTV</a>
+                <a href="">Film</a>
+                <a class="header__categoria--list" href="">Categorie<i></i></a>
+                
+            </div>
+        </header>
+           
+
+            <div class="categoria">
+                <ul class="list__subcategoria">
+                    <li class="list__subcategoria--item"><a class="list__subcategoria--link" href="">Stile soap<i></i></a></li>
+                    <li class="list__subcategoria--item"><a class="list__subcategoria--link" href="">Irriverente<i></i></a></li>
+                    <li class="list__subcategoria--item"><a class="list__subcategoria--link" href="">Giallo<i></i></a></li>
+                    <li class="list__subcategoria--item"><a class="list__subcategoria--link" href="">Brasiliano</a></li>
+                </ul>
+
+                <div class="container__playlist">
+                    <div class="container__playlist--mylist">
+                        <button class="container__playlist--add"><i></i></button>
+                        <p class="mylist__paragraph">La mia lista</p>
+                    </div>
+
+                    
+                    <div class="container__playlist--schermo">
+                        <img src="https://seeklogo.com/images/W/westworld-logo-0F4B6BF045-seeklogo.com.png" alt="">
+                        <h2 class="playlist__schermo--title">Oggi al n3 tra le serie TV</h2>
+                        <p class="p__schermo">Il parco gioco robotico di Westworld torna più enigmatico che mai. La serie ideata da Lisa e Jonathan Nolan è l'evento di marzo.</p>
+                        <div class="schermo__container">
+                        <button class="container__playlist--play"><i></i>Riproduci</button>
+                        <button class="container__playlist--info_icon_tablet container__playlist--play"><i></i>Altre info</button>
+                    </div>
+                    </div>
+                     
+                        <div class="container__playlist--info">
+                            <button class="container__playlist--info_icon"><i></i></button>
+                            <p>Info</p>
+                        </div>
+                
+
+                        
+                   
+                   
+                </div>
+            </div>
+   
+
+    <main class="main__content">
+
+        <!-- Cosa Andrè sta guardando-->
+
+        <section class="piu__popolari">
+            <h2 class="piu__popolari--titolo">Cosa André sta guardando</h2>
+            <div class="piu__popolari--gallery">
+
+                <div class="piu__popolari--container">
+                    
+                    <button class="piu__popolari--film film__1"><i></i></button>
+                    <div class="piu__popolari_film--control">
+                        <button class="button__control--inf"><i></i></button>
+                        <button class="button__control--option"><i></i></button>
+                    </div>
+                </div>
+                
+                <div class="piu__popolari--container">
+                    
+                    <button class="piu__popolari--film film__2"><i></i></button>
+                    <div class="piu__popolari_film--control">
+                        <button class="button__control--inf"><i></i></button>
+                        <button class="button__control--option"><i></i></button>
+                    </div>
+                </div>
+
+                <div class="piu__popolari--container">
+                   
+                    <button class="piu__popolari--film film__3"><i></i></button>
+                    <div class="piu__popolari_film--control">
+                        <button class="button__control--inf"><i></i></button>
+                        <button class="button__control--option"><i></i></button>
+                    </div>
+                </div>
+
+                <div class="piu__popolari--container">
+                    
+                    <button class="piu__popolari--film film__4"><i></i></button>
+                    <div class="piu__popolari_film--control">
+                        <button class="button__control--inf"><i></i></button>
+                        <button class="button__control--option"><i></i></button>
+                    </div>
+                </div>
+
+                <div class="piu__popolari--container">
+                    
+                    <button class="piu__popolari--film film__4"><i></i></button>
+                    <div class="piu__popolari_film--control">
+                        <button class="button__control--inf"><i></i></button>
+                        <button class="button__control--option"><i></i></button>
+                    </div>
+                </div>
+
+                <div class="piu__popolari--container">
+                    
+                    <button class="piu__popolari--film film__4"><i></i></button>
+                    <div class="piu__popolari_film--control">
+                        <button class="button__control--inf"><i></i></button>
+                        <button class="button__control--option"><i></i></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Top 10-->
+
+    <section class="top__10">
+        <h2 class="top__10--titolo">Top 10 delle serie TV in Italia oggi</h2>
+        <div class="top__10--main">
+
+            <div class="top__10--container">
+                <button class="top__10--button film__1"><i></i></button>
+                <svg id="rank-1"  viewBox="40 0 70 154" class="numero__image"><path stroke="#ffffff" stroke-linejoin="square" stroke-width="4" d="M35.377 152H72V2.538L2 19.362v30.341l33.377-8.459V152z"></path></svg>
+            </div>
+
+            <div class="top__10--container">
+                <button class="top__10--button  film__2"><i></i></button>
+                <svg id="rank-2"  viewBox="70 0 80 154" class="numero__image"><path stroke="#FFFFFF" stroke-linejoin="square" stroke-width="4" d="M3.72 152H113v-30.174H50.484l4.355-3.55 29.453-24.012c5.088-4.124 9.748-8.459 13.983-13.004 4.16-4.464 7.481-9.339 9.972-14.629 2.449-5.203 3.678-11.113 3.678-17.749 0-9.428-2.294-17.627-6.875-24.645-4.597-7.042-10.941-12.494-19.07-16.376C77.803 3.957 68.496 2 58.036 2 47.591 2 38.37 4.023 30.347 8.06c-8.015 4.032-14.457 9.578-19.352 16.654-4.492 6.493-7.389 13.803-8.693 21.952h34.055c1.236-3.52 3.398-6.52 6.459-8.97 3.54-2.834 8.277-4.224 14.147-4.224 5.93 0 10.552 1.537 13.76 4.681 3.181 3.12 4.791 7.024 4.791 11.594 0 4.151-1.16 7.934-3.468 11.298-2.192 3.194-5.987 7.124-11.405 11.84L3.72 122.465V152z"></path></svg>
+            </div>
+
+            <div class="top__10--container">
+                <button class="top__10--button  film__3"></button>
+                <svg id="rank-3"  viewBox="70 0 80 154" class="numero__image"><path stroke="#FFFFFF" stroke-linejoin="square" stroke-width="4" d="M3.809 41.577h33.243c1.3-2.702 3.545-4.947 6.674-6.72 3.554-2.015 7.83-3.01 12.798-3.01 5.555 0 10.14 1.11 13.723 3.376 3.839 2.427 5.782 6.283 5.782 11.315 0 4.553-1.853 8.395-5.473 11.38-3.547 2.926-8.18 4.37-13.821 4.37H41.44v28.366h16.77c5.572 0 10.275 1.227 14.068 3.711 4.02 2.633 6.071 6.581 6.071 11.616 0 5.705-1.943 9.975-5.853 12.562-3.658 2.42-8.292 3.61-13.863 3.61-5.205 0-9.82-.94-13.827-2.836-3.698-1.75-6.32-4.272-7.785-7.529H2.33c2.096 12.089 7.761 21.65 17.028 28.78C29.242 148.175 42.594 152 59.476 152c10.706 0 20.175-1.783 28.42-5.337 8.185-3.528 14.575-8.486 19.208-14.884 4.595-6.346 6.896-13.938 6.896-22.837 0-6.952-1.93-13.494-5.81-19.666-3.815-6.07-9.68-10.367-17.683-12.908l-5.46-1.735 5.353-2.04c6.659-2.538 11.667-6.338 15.083-11.412 3.431-5.096 5.142-10.806 5.142-17.181 0-8.471-2.262-15.778-6.787-21.985-4.574-6.275-10.7-11.17-18.408-14.696C77.683 3.775 69.109 2 59.687 2 44.084 2 31.515 5.816 21.91 13.415c-9 7.119-15.025 16.486-18.101 28.162z"></path></svg>
+            </div>
+
+            <div class="top__10--container">
+                <button class="top__10--button  film__4 top__10--mobile"></button>
+                <svg id="rank-2"  viewBox="70 0 80 154" class="numero__image"><path stroke="#FFFFFF" stroke-linejoin="square" stroke-width="4" d="M3.72 152H113v-30.174H50.484l4.355-3.55 29.453-24.012c5.088-4.124 9.748-8.459 13.983-13.004 4.16-4.464 7.481-9.339 9.972-14.629 2.449-5.203 3.678-11.113 3.678-17.749 0-9.428-2.294-17.627-6.875-24.645-4.597-7.042-10.941-12.494-19.07-16.376C77.803 3.957 68.496 2 58.036 2 47.591 2 38.37 4.023 30.347 8.06c-8.015 4.032-14.457 9.578-19.352 16.654-4.492 6.493-7.389 13.803-8.693 21.952h34.055c1.236-3.52 3.398-6.52 6.459-8.97 3.54-2.834 8.277-4.224 14.147-4.224 5.93 0 10.552 1.537 13.76 4.681 3.181 3.12 4.791 7.024 4.791 11.594 0 4.151-1.16 7.934-3.468 11.298-2.192 3.194-5.987 7.124-11.405 11.84L3.72 122.465V152z"></path></svg>
+            </div>
+
+            <div class="top__10--container">
+                <button class="top__10--button  film__5 top__10--mobile"></button>
+                <svg id="rank-3"  viewBox="70 0 80 154" class="numero__image"><path stroke="#FFFFFF" stroke-linejoin="square" stroke-width="4" d="M3.809 41.577h33.243c1.3-2.702 3.545-4.947 6.674-6.72 3.554-2.015 7.83-3.01 12.798-3.01 5.555 0 10.14 1.11 13.723 3.376 3.839 2.427 5.782 6.283 5.782 11.315 0 4.553-1.853 8.395-5.473 11.38-3.547 2.926-8.18 4.37-13.821 4.37H41.44v28.366h16.77c5.572 0 10.275 1.227 14.068 3.711 4.02 2.633 6.071 6.581 6.071 11.616 0 5.705-1.943 9.975-5.853 12.562-3.658 2.42-8.292 3.61-13.863 3.61-5.205 0-9.82-.94-13.827-2.836-3.698-1.75-6.32-4.272-7.785-7.529H2.33c2.096 12.089 7.761 21.65 17.028 28.78C29.242 148.175 42.594 152 59.476 152c10.706 0 20.175-1.783 28.42-5.337 8.185-3.528 14.575-8.486 19.208-14.884 4.595-6.346 6.896-13.938 6.896-22.837 0-6.952-1.93-13.494-5.81-19.666-3.815-6.07-9.68-10.367-17.683-12.908l-5.46-1.735 5.353-2.04c6.659-2.538 11.667-6.338 15.083-11.412 3.431-5.096 5.142-10.806 5.142-17.181 0-8.471-2.262-15.778-6.787-21.985-4.574-6.275-10.7-11.17-18.408-14.696C77.683 3.775 69.109 2 59.687 2 44.084 2 31.515 5.816 21.91 13.415c-9 7.119-15.025 16.486-18.101 28.162z"></path></svg>
+            </div>
+            <div class="top__10--container">
+                <button class="top__10--button film__6 top__10--mobile"></button>
+                <svg id="rank-3"  viewBox="70 0 80 154" class="numero__image"><path stroke="#FFFFFF" stroke-linejoin="square" stroke-width="4" d="M3.809 41.577h33.243c1.3-2.702 3.545-4.947 6.674-6.72 3.554-2.015 7.83-3.01 12.798-3.01 5.555 0 10.14 1.11 13.723 3.376 3.839 2.427 5.782 6.283 5.782 11.315 0 4.553-1.853 8.395-5.473 11.38-3.547 2.926-8.18 4.37-13.821 4.37H41.44v28.366h16.77c5.572 0 10.275 1.227 14.068 3.711 4.02 2.633 6.071 6.581 6.071 11.616 0 5.705-1.943 9.975-5.853 12.562-3.658 2.42-8.292 3.61-13.863 3.61-5.205 0-9.82-.94-13.827-2.836-3.698-1.75-6.32-4.272-7.785-7.529H2.33c2.096 12.089 7.761 21.65 17.028 28.78C29.242 148.175 42.594 152 59.476 152c10.706 0 20.175-1.783 28.42-5.337 8.185-3.528 14.575-8.486 19.208-14.884 4.595-6.346 6.896-13.938 6.896-22.837 0-6.952-1.93-13.494-5.81-19.666-3.815-6.07-9.68-10.367-17.683-12.908l-5.46-1.735 5.353-2.04c6.659-2.538 11.667-6.338 15.083-11.412 3.431-5.096 5.142-10.806 5.142-17.181 0-8.471-2.262-15.778-6.787-21.985-4.574-6.275-10.7-11.17-18.408-14.696C77.683 3.775 69.109 2 59.687 2 44.084 2 31.515 5.816 21.91 13.415c-9 7.119-15.025 16.486-18.101 28.162z"></path></svg>
+            </div>
+
+        </div>
+    </section>
+
+
+
+        <section class="piu__popolari">
+                <h2 class="piu__popolari--titolo">I più popolari su Netflix</h2>
+                <div class="piu__popolari--gallery">
+                    <button class="piu__popolari--film film__1"></button>
+                    <button class="piu__popolari--film film__2"></button>
+                    <button class="piu__popolari--film film__3"></button>
+                    <button class="piu__popolari--film film__4 top__10--mobile"></button>
+                    <button class="piu__popolari--film film__5 top__10--mobile"></button>
+                    <button class="piu__popolari--film film__6 top__10--mobile"></button>
+                    
+                </div>
+
+        </section>
+
+
+        <section class="piu__popolari">
+            <h2 class="piu__popolari--titolo">Top 10 delle serie TV in Italia oggi</h2>
+            <div class="piu__popolari--gallery">
+                <button class="piu__popolari--film film__1"></button>
+                <button class="piu__popolari--film film__1"></button>
+                <button class="piu__popolari--film film__1"></button>
+                <button class="piu__popolari--film film__1 top__10--mobile"></button>
+                <button class="piu__popolari--film film__1 top__10--mobile"></button>
+                <button class="piu__popolari--film film__1 top__10--mobile"></button>
+            </div>
+
+        </section>
+
+        <section class="piu__popolari">
+            <h2 class="piu__popolari--titolo">Serie TV da vedere tutte d'un fiatto</h2>
+            <div class="piu__popolari--gallery">
+                <button class="piu__popolari--film film__1"></button>
+                <button class="piu__popolari--film film__1"></button>
+                <button class="piu__popolari--film film__1"></button>
+                <button class="piu__popolari--film film__1 top__10--mobile"></button>
+                <button class="piu__popolari--film film__1 top__10--mobile"></button>
+                <button class="piu__popolari--film film__1 top__10--mobile"></button>
+
+            </div>
+
+        </section>
+    </main>
+
+    <div class="netflix__footer">
+        <div class="footer__container">
+            <div class="netflix__footer--categoria">
+                <button class="footer_button footer__button--home"><i></i></button>
+                <p>Home</p>
+            </div>
+
+            <div class="netflix__footer--categoria">
+                <button class="footer_button footer__button--giochi"><i></i></button>
+                <p>Giochi</p>
+            </div>
+
+            <div class="netflix__footer--categoria">
+                <button class="footer_button footer__button--novita"><i></i></button>
+                <p>Novita del momento</p>
+            </div>
+
+            <div class="netflix__footer--categoria">
+                <button class="footer_button footer__button--download"><i></i></button>
+                <p>Download</p>
+            </div>
+        </div>
+   
+
+    </footer>
+
+</body>
+</html>
